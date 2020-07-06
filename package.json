@@ -9,13 +9,11 @@
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "test": "jest --config jestconfig.json",
-
-
-    "prepare" : "npm run build",
-    "prepublishOnly" : "npm test && npm run lint",
-    "preversion" : "npm run lint",
-    "version" : "npm run format && git add -A src",
-    "postversion" : "git push && git push --tags"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "files": [
     "lib/**/*"
@@ -24,7 +22,10 @@
     "type": "git",
     "url": "git+https://github.com/mapugina/limericky.git"
   },
-  "keywords": ["validator", "limerick"],
+  "keywords": [
+    "validator",
+    "limerick"
+  ],
   "author": "Michael Pugina",
   "license": "ISC",
   "bugs": {
