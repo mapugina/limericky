@@ -1,7 +1,7 @@
 {
   "name": "limericky",
   "version": "0.0.1",
-  "description": "",
+  "description": "An npm module to validate if a string is a limerick",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -27,7 +27,7 @@
     "limerick"
   ],
   "author": "Michael Pugina",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mapugina/limericky/issues"
   },
