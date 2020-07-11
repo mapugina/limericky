@@ -1,4 +1,4 @@
-import {EOL} from 'os';
+import { EOL } from 'os';
 
 /**
  * Split the poem in to its sperate lines, trimming any excess
@@ -6,5 +6,5 @@ import {EOL} from 'os';
  * @returns The poem split up into multiple lines
  */
 export function splitPoem(poem: string): string[] {
-    return poem?.trim()?.split(EOL);
+  return poem?.trim()?.split(EOL);
 }
