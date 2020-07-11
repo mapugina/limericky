@@ -9,6 +9,7 @@
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "test": "jest --config jestconfig.json",
+    "test:watch": "jest --watch --config jestconfig.json",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
@@ -34,11 +35,15 @@
   "homepage": "https://github.com/mapugina/limericky#readme",
   "devDependencies": {
     "@types/jest": "^26.0.3",
+    "@types/syllable": "^4.1.0",
     "jest": "^26.1.0",
     "prettier": "^2.0.5",
     "ts-jest": "^26.1.1",
     "tslint": "^6.1.2",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "syllable": "^4.1.0"
   }
 }
